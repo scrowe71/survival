@@ -10,7 +10,7 @@ FROM_EMAIL = "Bugging In <downloads@YOURDOMAIN.com>"
 [[d1_databases]]
 binding = "DB"
 database_name = "survival-db"
-database_id = "PASTE-DATABASE-ID-HERE"
+database_id = "85fdff49-9e48-47c8-a4f7-0b31c9fd628f"
 migrations_dir = "migrations"
 
 [[r2_buckets]]
