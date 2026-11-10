@@ -84,7 +84,7 @@ Pages project → **Settings → Variables and Secrets**. Add these as **Secret*
 
 This fits your dev/main setup: the **dev** preview site uses Stripe **test mode** (pay with card `4242 4242 4242 4242`, any future date, any CVC), and **main** takes real money. Make one webhook in Stripe test mode pointing at the dev preview URL and one in live mode pointing at the real domain.
 
-Also update `SITE_URL` and `FROM_EMAIL` in `wrangler.toml` once you have the domain.
+Also update `FROM_EMAIL` in `wrangler.toml` once you have the domain.
 
 ### 7. Custom domain
 After buying the domain: Pages project → **Custom domains → Set up a domain**.

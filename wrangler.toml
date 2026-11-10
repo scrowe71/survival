@@ -3,8 +3,7 @@ pages_build_output_dir = "public"
 compatibility_date = "2025-09-01"
 
 [vars]
-# Change to your real domain once you buy it (no trailing slash).
-SITE_URL = "https://survival.pages.dev"
+# SITE_URL is optional: links use the address the site is visited at (works for dev previews too).
 FROM_EMAIL = "Bugging In <downloads@YOURDOMAIN.com>"
 
 [[d1_databases]]
