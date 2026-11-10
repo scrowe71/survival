@@ -1,0 +1,12 @@
+{
+  "name": "survival",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev",
+    "db:local": "wrangler d1 migrations apply survival-db --local",
+    "db:remote": "wrangler d1 migrations apply survival-db --remote"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}

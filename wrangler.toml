@@ -1,0 +1,18 @@
+name = "survival"
+pages_build_output_dir = "public"
+compatibility_date = "2025-09-01"
+
+[vars]
+# Change to your real domain once you buy it (no trailing slash).
+SITE_URL = "https://survival.pages.dev"
+FROM_EMAIL = "Bugging In <downloads@YOURDOMAIN.com>"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "survival-db"
+database_id = "PASTE-DATABASE-ID-HERE"
+migrations_dir = "migrations"
+
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "survival-files"

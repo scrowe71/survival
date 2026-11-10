@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My downloads · Bugging In</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="bar"><a href="/" class="brand">Bugging In</a></header>
+  <main class="narrow card">
+    <h1>Get a new download link</h1>
+    <p>Enter the email address you used when you bought the book. If we find your purchase, a fresh link is sent to that inbox. It's good for 60 minutes.</p>
+    <form id="link-form">
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email" required autocomplete="email" placeholder="you@example.com">
+      <button class="btn" type="submit" id="link-btn">Email me a new link</button>
+    </form>
+    <p class="msg" id="link-msg"></p>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
